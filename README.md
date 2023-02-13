@@ -1,6 +1,6 @@
 # LuCar - A Locadora de veículos que mais cresce no Brasil!
 
-Projeto para conclusão do módulo III de Programação Orientada a Objeto Java da Ada em parceria com a Americanas - Futoro Polo Tech
+Projeto para conclusão do terceiro módulo do curso de Java da ADA - POO-II
 Professor do Módulo: Vinicius Martins Cornieri
 
 ## 🚀 Descrição e regras do Desafio:
