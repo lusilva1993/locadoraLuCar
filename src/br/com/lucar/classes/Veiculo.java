@@ -1,34 +1,32 @@
 package br.com.lucar.classes;
 
 import br.com.lucar.enums.PorteVeiculo;
+import br.com.lucar.interfaces.Entities;
 
-public class Veiculo {
+import java.util.Collection;
+
+public abstract class Veiculo implements Entities {
+
     private String marca;
     private String modelo;
-    private int ano;
     private String placa;
-    private Boolean disponivel;
-
-    private PorteVeiculo porte;
 
     public Veiculo(){
-    };
 
-    public Veiculo(String marca, String modelo, int ano, String placa, Boolean disponivel, PorteVeiculo porte) {
-        this.marca = marca;
-        this.modelo = modelo;
-        this.ano = ano;
-        this.placa = placa;
-        this.disponivel = disponivel;
-        this.porte = porte;
     }
 
-    public String getMarca() {
+    public Veiculo(String marca, String modelo, String placa) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.placa = placa;
+    }
+
+    public String getFabricante() {
         return marca;
     }
 
-    public void setMarca(String marca) {
-        this.marca= marca;
+    public void setFabricante(String fabricante) {
+        this.marca = fabricante;
     }
 
     public String getModelo() {
@@ -39,47 +37,30 @@ public class Veiculo {
         this.modelo = modelo;
     }
 
-    public int getAno() {
-        return ano;
-    }
-
-    public void setAno(int ano) {
-        this.ano = ano;
-    }
-
     public String getPlaca() {
         return placa;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     public void setPlaca(String placa) {
         this.placa = placa;
     }
 
-    public boolean isDisponivel() {
-        return disponivel;
-    }
-
-    public void setDisponivel(boolean disponivel) {
-        this.disponivel = disponivel;
-    }
-
-    public Boolean getDisponivel() {
-        return disponivel;
-    }
-
-    public void setDisponivel(Boolean disponivel) {
-        this.disponivel = disponivel;
+    @Override
+    public String getId() {
+        return this.placa;
     }
 
     @Override
     public String toString() {
-        return "Veiculo{" +
-                "marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", ano=" + ano +
-                ", placa='" + placa + '\'' +
-                ", disponivel=" + disponivel +
-                ", porte=" + porte +
-                '}';
+        return  marca + " - " + modelo + " Placa: " + placa;
     }
+
 }
