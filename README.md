@@ -1,7 +1,11 @@
-# LuCar - A Locadora de veículos que mais cresce no Brasil!
+# 📌LuCarJoy - A Locadora de veículos que mais cresce no Brasil!📌
 
 Projeto para conclusão do terceiro módulo do curso de Java da ADA - POO-II
 Professor do Módulo: Vinicius Martins Cornieri
+
+##✒️Alunas:
+Luciana Ferreira da Silva
+Joyce Ribeiro
 
 ## 🚀 Descrição e regras do Desafio:
 
@@ -41,3 +45,13 @@ Entrega
 O projeto pode possuir um menu iterativo ou uma classe com o método main contendo a exemplificação das funcionalidades.
 
 Entregar o link do repositório do projeto no GITHUB. Explicar no README do projeto os conceitos do módulo que teve facilidade e dificuldade em aplicar.
+
+##🛠️ Dificuldades e Facilidades
+Por problemas pessoais acabamos desenvolvendo o projeto tardiamente e algumas dúvidas surgiram. Fomos tirando-as dúvidas com os colegas e com curso de Java do Nélio que temos (principlamente por conta do generics e como usar - se usaram enum no projeto ou se fizeram direto). 
+O projeto ficou um pouco mais direto (não criamos menu interativo) mas inserimos o generics e as interfaces ( e até algumas classes abstract relembrando o módulo anterior). 
+Quanto a parte do SOLID,  o assunto é mais complicado de se aplicar devido a discussões (inclusive aqui na dupla rs) mas a que conseguimos inserir com mais facilidade foi a SRP — Single Responsibility Principle - tentamos deixar as classes mais responsáveis de suas ações e apenas a chama-las nas outras, evitando que uma classe fizesse muitas coisas ao mesmo tempo.
+
+🎁 Agradecemos o desafio e a oportunidade professor, esperamos vê-lo brevemente em outros módulos!
+
+❤️Lu e Joy❤️
+
